@@ -91,7 +91,7 @@ const Footer = () => {
               placeholder="Nhập email của bạn"
               className="footer-input rounded-md text-black focus:outline-none w-full"
             />
-     <div className="absolute right-0 -top-[2px]">
+     <div className="absolute right-0 -top-[2px] z-0">
      <button className="footer-button  bg-[#333333] px-[31px] py-[13px] text-[16px] font-bold rounded-md ">
             <span>  Đăng ký</span>
             </button>

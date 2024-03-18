@@ -3,6 +3,8 @@ import React from 'react'
 import Slider from './components/home/Slider'
 import OutstandingProduct from './components/home/OutstandingProduct';
 import ProductNew from './components/home/ProductNew';
+import Media from './components/home/Media';
+import Policy from './components/home/Policy';
 
 const Home = () => {
   return (
@@ -10,6 +12,8 @@ const Home = () => {
       <Slider/>
       <OutstandingProduct/>
       <ProductNew/>
+      <Policy/>
+      <Media/>
     </div>
   )
 }

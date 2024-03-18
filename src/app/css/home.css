@@ -206,3 +206,14 @@
 }
 
 /* section card */
+
+
+
+/* media */
+.media-info{
+  display: none;
+  background-color: rgb(17 17 17 / 50%);
+}
+.media-item:hover .media-info{
+  display: block;
+}

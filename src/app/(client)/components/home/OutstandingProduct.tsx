@@ -8,7 +8,7 @@ const OutstandingProduct = () => {
     <div className="sm:px-[50px] px-[10px]">
       <h1 className="text-[30px] mb-[30px] font-medium ">Danh mục nổi bật</h1>
 
-      <div className="grid  lg:grid-cols-4 grid-cols-2  gap-7">
+      <div className="grid  lg:grid-cols-4 grid-cols-2 gap-5  lg:gap-7">
       <Link href={"/product"}>
         <div className=" relative  card-1">
           <Image width={500} height={500} src="/home/productCard-1.webp" alt="productCart-1" className="card-1-img   max-w-[100%]" />
