@@ -5,6 +5,7 @@ import OutstandingProduct from './components/home/OutstandingProduct';
 import ProductNew from './components/home/ProductNew';
 import Media from './components/home/Media';
 import Policy from './components/home/Policy';
+import NewBlog from './components/home/NewBlog';
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <Slider/>
       <OutstandingProduct/>
       <ProductNew/>
+      <NewBlog/>
       <Policy/>
       <Media/>
     </div>
