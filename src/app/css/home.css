@@ -1,0 +1,208 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.card-1 {
+  overflow: hidden;
+}
+.card-1-img {
+  transition: transform 1s;
+}
+.card-1:hover .card-1-img {
+  transform: scale(1.1);
+}
+
+/* menu */
+.menu-item:hover .icon-menu {
+  transform: rotate(180deg);
+}
+.subnav-menu {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+}
+.menu-item:hover .subnav-menu {
+  opacity: 1;
+  visibility: visible;
+  bottom: -400px;
+}
+.swiper-button-prev {
+  position: absolute;
+  left: -10px !important;
+  width: 55px;
+  height: 55px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 50%;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.4s;
+}
+.swiper-button-prev::after {
+  font-size: 25px;
+  color: black;
+}
+
+.swiper:hover .swiper-button-prev {
+  opacity: 1;
+  position: absolute;
+  left: 40px !important;
+  visibility: visible;
+}
+.swiper-button-next {
+  position: absolute;
+  right: -10px !important;
+  width: 55px;
+  height: 55px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 50%;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.4s;
+}
+.swiper-button-next::after {
+  font-size: 25px;
+  color: black;
+}
+
+.swiper:hover .swiper-button-next {
+  opacity: 1;
+  position: absolute;
+  right: 40px !important;
+  visibility: visible;
+}
+/* slider*/
+/* product-new */
+.product-new-title::before {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 135px;
+  bottom: 0;
+  left: 20px;
+  background-color: black;
+}
+.product-sale-title::before {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 0;
+  bottom: 0;
+  left: 20px;
+  background-color: black;
+  transition: all 0.3s;
+}
+.product-sale-title:hover::before {
+  width: 50px;
+}
+.add-cart {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s;
+}
+.product-card:hover .add-cart {
+  opacity: 1;
+  position: absolute;
+
+  bottom: 20px;
+  visibility: visible;
+}
+.product-button{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  overflow: hidden;
+  cursor: pointer;
+  color: white;
+  z-index: 1000;
+}
+
+.product-button:after {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  background: black;
+  position: absolute;
+  transition: all 0.4s ease-in-out;
+  right: 0;
+}
+.product-button:hover::after {
+  right: 0;
+  width: 0%;
+}
+.product-button span {
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  color: white;
+  padding: 0 15px;
+  z-index: 20;
+  transition: all 0.3s ease-in-out;
+}
+.product-button:hover span {
+  color: black;
+}
+
+.product-img:hover .product-img-default {
+  opacity: 0;
+}
+.product-hover-img {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  transition: all 0.7s;
+}
+.product-img:hover .product-hover-img {
+  opacity: 1;
+  transform: scale(1.1);
+  visibility: visible;
+}
+
+/* section card */
+.section-card{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  overflow: hidden;
+  cursor: pointer;
+  color: black;
+  z-index: 1000;
+}
+
+.section-card:after {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  background:white;
+  position: absolute;
+  transition: all 0.4s ease-in-out;
+  right: 0;
+}
+.section-card:hover::after {
+  right: 0;
+  width: 0%;
+}
+.section-card span {
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  color: black;
+  padding: 0 15px;
+  z-index: 20;
+  transition: all 0.2s ease-in-out;
+}
+.section-card:hover span {
+  color: white;
+}
+
+/* section card */
