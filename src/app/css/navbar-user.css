@@ -1,0 +1,59 @@
+.mobile-search {
+    border: 2px solid #dad8d8;
+
+}
+
+.mobile-search-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile-input-search {
+    width: 100%;
+    color: #000;
+    font-size: 20px;
+    border: 0;
+    outline: 0;
+    background: #eee;
+    height: 45px;
+    padding: 1px 2px 1px 10px;
+}
+
+
+
+.mobile-input-search:focus {
+    background-color: #fff;
+}
+
+.search-btn svg {
+    width: 25px;
+    height: 25px;
+}
+
+
+
+.products-menu {
+    max-height: 0;
+    background-color: #4f4f4f;
+    overflow: hidden;
+    transition: max-height 0.5s linear;
+}
+
+.products-menu.active {
+    max-height: 500px;
+    transition: max-height 0.5s linear;
+    background-color: #4f4f4f;
+}
+
+.menu-hover:hover {
+    background-color: #7f7f7f;
+    color:#fff;
+}
+
+
+.icon-sidebar svg {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
