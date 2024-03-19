@@ -4,12 +4,12 @@ import React from "react";
 const User = () => {
   return (
     <>
-      <div className="page-user flex">
-
-        <div className="bg-[#4495] w-full h-[500px]">
-
-        </div>
-      </div>
+    <div className="dashboard-page">
+    <h1 className="text-[32px] p-[20px]">Dashboard</h1>
+    <div className="card-header">
+      
+    </div>
+    </div>
     </>
   );
 };

@@ -14,7 +14,7 @@ import {
   FaChartLine,
   FaQuestionCircle,
 } from "react-icons/fa";
-import "@/src/app/css/navbar-user.css";
+import '@/src/app/user/css/navbar-user.css';
 
 const NavbarUser = () => {
   const [visibleMenus, setVisibleMenus] = useState(Array(8).fill(false));

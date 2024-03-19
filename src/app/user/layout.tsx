@@ -1,7 +1,7 @@
 import "@/src/app/css/home.css";
-import NavbarUser from "../(client)/components/navbar-user";
+import NavbarUser from "./components/navbar-user";
 import Footer from "../(client)/components/footer/Footer";
-import HeaderPageUser from "../(client)/components/header-page-user";
+import HeaderPageUser from "./components/header-page-user";
 
 
 
