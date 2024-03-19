@@ -25,8 +25,11 @@
 .menu-item:hover .subnav-menu {
   opacity: 1;
   visibility: visible;
-  bottom: -400px;
+  top:60px;
 }
+
+
+/* slider */
 .swiper-button-prev {
   position: absolute;
   left: -10px !important;

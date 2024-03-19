@@ -12,9 +12,10 @@ import "swiper/css/pagination";
 const NewBlog = () => {
   return (
     <div className=" px-[50px] pb-[50px] cursor-pointer">
-      <div></div>-
+      <div>
+        <h1 className=" text-3xl font-medium mb-">Bài viết mới nhất</h1></div>
       <Swiper
-        slidesPerView={4}
+       
         spaceBetween={30}
         navigation={true}
         autoplay={{
@@ -22,6 +23,20 @@ const NewBlog = () => {
         }}
         modules={[Navigation]}
         className="mySwiper"
+        breakpoints={{
+          1280: {
+            slidesPerView: 4,
+          },
+          1024: {
+            slidesPerView: 3,
+          },
+        640: {
+            slidesPerView: 2,
+          },
+          0: {
+            slidesPerView: 1,
+          },
+        }}
       >
         <SwiperSlide>
           {" "}

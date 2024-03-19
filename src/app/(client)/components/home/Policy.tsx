@@ -3,7 +3,7 @@ import React from "react";
 
 const Policy = () => {
   return (
-    <div className=" grid  grid-cols-4 px-[50px] py-10 border-t">
+    <div className=" grid sm:grid-cols-2 grid-cols-1   xl:grid-cols-4 px-[50px] py-10 border-t gap-6 xl:gap-0">
       <div className=" flex items-center">
         <div>
           <Image
